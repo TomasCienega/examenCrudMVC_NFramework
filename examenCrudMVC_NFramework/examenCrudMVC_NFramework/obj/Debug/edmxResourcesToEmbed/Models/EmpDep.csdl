@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="examenCrudMVC_NFrameworkModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Departamento">
+    <Key>
+      <PropertyRef Name="idDepartamento" />
+    </Key>
+    <Property Name="idDepartamento" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombreDepartamento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Empleadoes" Relationship="Self.FK_EmpleadoDepartamento" FromRole="Departamento" ToRole="Empleado" />
+  </EntityType>
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="idEmpleado" />
+    </Key>
+    <Property Name="idEmpleado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombreEmpleado" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idDepartamento" Type="Int32" />
+    <Property Name="activo" Type="Boolean" />
+    <NavigationProperty Name="IdDepartamentoNavigation" Relationship="Self.FK_EmpleadoDepartamento" FromRole="Empleado" ToRole="Departamento" />
+  </EntityType>
+  <Association Name="FK_EmpleadoDepartamento">
+    <End Role="Departamento" Type="Self.Departamento" Multiplicity="0..1" />
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departamento">
+        <PropertyRef Name="idDepartamento" />
+      </Principal>
+      <Dependent Role="Empleado">
+        <PropertyRef Name="idDepartamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="examenCrudMVC_NFrameworkEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Departamentoes" EntityType="Self.Departamento" />
+    <EntitySet Name="Empleadoes" EntityType="Self.Empleado" />
+    <AssociationSet Name="FK_EmpleadoDepartamento" Association="Self.FK_EmpleadoDepartamento">
+      <End Role="Departamento" EntitySet="Departamentoes" />
+      <End Role="Empleado" EntitySet="Empleadoes" />
+    </AssociationSet>
+    <FunctionImport Name="sp_EstadoEmpleado">
+      <Parameter Name="idEmpleado" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarEmpleadoPorIdDep" ReturnType="Collection(examenCrudMVC_NFrameworkModel.sp_ListarEmpleadoPorIdDep_Result)">
+      <Parameter Name="idDepartamento" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_ListarEmpleadoPorIdDep_Result">
+    <Property Type="Int32" Name="idEmpleado" Nullable="false" />
+    <Property Type="String" Name="nombreEmpleado" Nullable="false" MaxLength="100" />
+    <Property Type="Boolean" Name="activo" Nullable="true" />
+    <Property Type="Int32" Name="idDepartamento" Nullable="false" />
+    <Property Type="String" Name="nombreDepartamento" Nullable="false" MaxLength="50" />
+  </ComplexType>
+</Schema>

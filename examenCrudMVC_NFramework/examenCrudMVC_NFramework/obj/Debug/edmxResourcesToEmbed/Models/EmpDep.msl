@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="examenCrudMVC_NFrameworkModelStoreContainer" CdmEntityContainer="examenCrudMVC_NFrameworkEntities">
+    <EntitySetMapping Name="Departamentoes">
+      <EntityTypeMapping TypeName="examenCrudMVC_NFrameworkModel.Departamento">
+        <MappingFragment StoreEntitySet="Departamento">
+          <ScalarProperty Name="idDepartamento" ColumnName="idDepartamento" />
+          <ScalarProperty Name="nombreDepartamento" ColumnName="nombreDepartamento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empleadoes">
+      <EntityTypeMapping TypeName="examenCrudMVC_NFrameworkModel.Empleado">
+        <MappingFragment StoreEntitySet="Empleado">
+          <ScalarProperty Name="idEmpleado" ColumnName="idEmpleado" />
+          <ScalarProperty Name="nombreEmpleado" ColumnName="nombreEmpleado" />
+          <ScalarProperty Name="idDepartamento" ColumnName="idDepartamento" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_EstadoEmpleado" FunctionName="examenCrudMVC_NFrameworkModel.Store.sp_EstadoEmpleado" />
+    <FunctionImportMapping FunctionImportName="sp_ListarEmpleadoPorIdDep" FunctionName="examenCrudMVC_NFrameworkModel.Store.sp_ListarEmpleadoPorIdDep">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="examenCrudMVC_NFrameworkModel.sp_ListarEmpleadoPorIdDep_Result">
+          <ScalarProperty Name="idEmpleado" ColumnName="idEmpleado" />
+          <ScalarProperty Name="nombreEmpleado" ColumnName="nombreEmpleado" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="idDepartamento" ColumnName="idDepartamento" />
+          <ScalarProperty Name="nombreDepartamento" ColumnName="nombreDepartamento" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

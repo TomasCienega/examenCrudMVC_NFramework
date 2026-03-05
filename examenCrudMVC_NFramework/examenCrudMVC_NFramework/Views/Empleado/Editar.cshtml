@@ -1,0 +1,44 @@
+﻿@model examenCrudMVC_NFramework.ViewModel.EmpleadoVM
+
+
+@{
+    ViewBag.Title = "Gestion Empleados";
+}
+
+@* --- TARJETA PARA AGREGAR/GUARDAR --- *@
+<div class="mb-3">
+    <div class="card shadow-sm">
+        <div class="card-header">
+            <h2 class="fw-bold">Editar Usuario</h2>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("Editar", "Empleado", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+
+                @* ID del Empleado: Indispensable para que el controlador sepa a quién editar *@
+                @Html.HiddenFor(m => m.EmpleadoModelReference.idEmpleado)
+
+                @* Estado Activo: Para que no se pierda o se vuelva nulo al guardar *@
+                @Html.HiddenFor(m => m.EmpleadoModelReference.activo)
+                <div class="d-flex align-items-center mb-3">
+                    <label class="fw-bold me-3" style="width: 120px;">Empleado: </label>
+                    @Html.TextBoxFor(m => m.EmpleadoModelReference.nombreEmpleado, new { @class = "form-control w-auto", style = "max-width: 300px;", required = "required" })
+                </div>
+                <div class="d-flex align-items-center mb-1">
+                    <label class="fw-bold me-3" style="width: 120px;">Departamento: </label>
+                    @Html.DropDownListFor(m => m.EmpleadoModelReference.idDepartamento,
+                        new SelectList(Model.ListaDepartamentos, "idDepartamento", "nombreDepartamento"),
+                        "--Selecciona un Departamento--",
+                        new { @class = "form-select w-auto", style = "max-width: 300px;", required = "required" })
+                </div>
+
+                <button type="submit" class="btn btn-outline-success m-2">
+                    <i class="bi bi-save"></i> Guardar
+                </button>
+                @* ENLACE REGRESAR *@
+                <a href="@Url.Action("Index", "Empleado")" class="btn btn-outline-info"><i class="bi bi-eraser"></i> Regresar</a>
+            }
+        </div>
+    </div>
+</div>
