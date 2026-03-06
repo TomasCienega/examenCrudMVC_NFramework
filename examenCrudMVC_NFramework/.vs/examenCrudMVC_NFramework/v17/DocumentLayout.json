@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\examencrudmvc_nframework\\models\\empdep.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|solutionrelative:examencrudmvc_nframework\\models\\empdep.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\examencrudmvc_nframework\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|solutionrelative:examencrudmvc_nframework\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\examencrudmvc_nframework\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|solutionrelative:examencrudmvc_nframework\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\examencrudmvc_nframework\\examencrudmvc_nframework\\examencrudmvc_nframework\\views\\empleado\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|solutionrelative:examencrudmvc_nframework\\views\\empleado\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\examencrudmvc_nframework\\examencrudmvc_nframework\\examencrudmvc_nframework\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|solutionrelative:examencrudmvc_nframework\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\examencrudmvc_nframework\\examencrudmvc_nframework\\examencrudmvc_nframework\\models\\empdep.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|solutionrelative:examencrudmvc_nframework\\models\\empdep.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\examencrudmvc_nframework\\examencrudmvc_nframework\\examencrudmvc_nframework\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|solutionrelative:examencrudmvc_nframework\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\examencrudmvc_nframework\\examencrudmvc_nframework\\examencrudmvc_nframework\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\examencrudmvc_nframework\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8589EA40-074B-43FE-8B4D-8EAF368499D0}|examenCrudMVC_NFramework\\examenCrudMVC_NFramework.csproj|solutionrelative:examencrudmvc_nframework\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\Views\\Empleado\\Editar.cshtml",
               "RelativeDocumentMoniker": "examenCrudMVC_NFramework\\Views\\Empleado\\Editar.cshtml",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\Views\\Empleado\\Editar.cshtml",
               "RelativeToolTip": "examenCrudMVC_NFramework\\Views\\Empleado\\Editar.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAB9AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAB9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-05T02:13:52.98Z",
               "EditorCaption": ""
@@ -60,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EmpDep.Context.cs",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\Models\\EmpDep.Context.cs",
               "RelativeDocumentMoniker": "examenCrudMVC_NFramework\\Models\\EmpDep.Context.cs",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\Models\\EmpDep.Context.cs",
               "RelativeToolTip": "examenCrudMVC_NFramework\\Models\\EmpDep.Context.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwB4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T02:09:58.402Z",
               "EditorCaption": ""
@@ -81,18 +81,17 @@
               "RelativeToolTip": "examenCrudMVC_NFramework\\Models\\Empleado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T02:09:49.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T02:09:49.254Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EmpleadoController.cs",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\Controllers\\EmpleadoController.cs",
               "RelativeDocumentMoniker": "examenCrudMVC_NFramework\\Controllers\\EmpleadoController.cs",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\examenCrudMVC_NFramework\\Controllers\\EmpleadoController.cs",
               "RelativeToolTip": "examenCrudMVC_NFramework\\Controllers\\EmpleadoController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAwwJQAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAqwJQAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T02:08:50.787Z",
               "EditorCaption": ""

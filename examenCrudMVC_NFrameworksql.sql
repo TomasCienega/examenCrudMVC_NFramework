@@ -1,4 +1,4 @@
-
+ 
 -- DESKTOP-JJ9DM3F\SQLEXPRESS
 
 create database examenCrudMVC_NFramework
